@@ -1,9 +1,15 @@
 {
+  "monti": {
+    "appId": "4yHfSttAezRQro5jy",
+    "appSecret": "b7e6e9ff-50fe-4608-9dce-0a6597f8690c"
+  },
+
   "defaultAccounts": [
-    {"firstName": "Thomas", "lastName": "Foo", "email": "trivera2@hawaii.edu", "password": "changeme", "role": "admin"},
-    {"firstName": "Jaren", "lastName": "Foo", "email": "trivera2@foo.com", "password": "changeme", "role": "moderator"},
-    {"firstName": "Aaron", "lastName": "Foo", "email": "trivera2@goo.com", "password": "changeme", "role": "vendor"},
-    {"firstName": "Sage", "lastName": "Foo", "email": "trivera2@poo.com", "password": "changeme", "role": "user"}
+    {"firstName": "Thomas", "lastName": "Foo", "email": "admin@foo.com", "password": "changeme", "role": "admin"},
+    {"firstName": "Jaren", "lastName": "Foo", "email": "mod@foo.com", "password": "changeme", "role": "moderator"},
+    {"firstName": "Aaron", "lastName": "Foo", "email": "burgers@foo.com", "password": "changeme", "role": "vendor"},
+    {"firstName": "Sage", "lastName": "Foo", "email": "user@foo.com", "password": "changeme", "role": "user"},
+    {"firstName": "Nathan", "lastName": "Foo", "email": "murrayn@foo.com", "password": "changeme", "role": "user"}
   ],
 
   "defaultData": [
@@ -18,5 +24,13 @@
     {"owner": "trivera2@goo.com", "size": "medium"},
     {"owner": "trivera2@goo.com", "size": "large"},
     {"owner": "trivera2@poo.com", "size": "small"}
+  ],
+
+  "defaultOrders": [
+    { "firstName": "John", "lastName": "Doe", "email": "john@foo.com", "event": "Charity", "location": "Kalihi", "containers": "50" },
+    { "firstName": "Bob", "lastName": "Dot", "email": "john@foo.com", "event": "Fundraiser", "location": "Kapolei", "containers": "100" },
+    { "firstName": "Hal", "lastName": "Rob", "email": "admin@foo.com", "event": "Dinner", "location": "Waipahu", "containers": "10" },
+    { "firstName": "Jen", "lastName": "Doe", "email": "admin@foo.com", "event": "Birthday", "location": "Ala Moana", "containers": "25" }
   ]
+
 }

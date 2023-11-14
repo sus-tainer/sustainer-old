@@ -35,13 +35,14 @@ const SignUp = ({ location }) => {
 
   const { from } = location?.state || { from: { pathname: '/add' } };
   if (redirectToReferer) {
-    return <Navigate to={from} />;
+    // eslint-disable-next-line react/jsx-filename-extension
+    <Navigate to={from} />;
   }
 
   return (
     <Container id="signup-page" className="py-3">
       <Row className="justify-content-center">
-        <Col xs={12} md={10} lg={8}>
+        <Col xs={12} md={8} lg={6}>
           <Col className="text-center">
             <h2>Register your account</h2>
           </Col>
